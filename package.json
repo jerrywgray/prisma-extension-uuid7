@@ -1,20 +1,29 @@
 {
-  "name": "prisma-client-extension-starter",
-  "version": "0.0.0",
-  "author": "",
+  "name": "prisma-extension-uuid7",
+  "version": "0.1.0",
+  "author": "Jerry Gray <jerrywgray@gmail.com>",
+  "license": "MIT",
   "description": "",
-  "keywords": ["prisma", "@prisma/client", "extension"],
+  "keywords": [
+    "prisma",
+    "@prisma/client",
+    "extension"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "peerDependencies": {
-    "@prisma/client": "latest"
+    "@prisma/client": "^5.13.0"
   },
   "devDependencies": {
-    "@prisma/client": "latest",
-    "prisma": "latest",
-    "typescript": "4.9.4"
+    "@prisma/client": "^5.13.0",
+    "@types/node": "^20.12.11",
+    "prisma": "^5.13.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "uuidv7": "^0.6.3"
   }
 }
